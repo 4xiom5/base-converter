@@ -1,0 +1,17 @@
+{
+  "name": "base-converter",
+  "version": "1.0.0",
+  "description": "A simple base converter",
+  "main": "app/Main.js",
+  "scripts": {
+    "winit": "npm install && npm install -g typescript pug-cli typings electron && typings install",
+    "uinit": "npm install && sudo npm install -g typescript pug-cli typings electron && typings install",
+    "build": "pug app/views && tsc && electron ."
+  },
+  "keywords": [
+    "Base",
+    "Convertion"
+  ],
+  "author": "Brice Theurillat <brice.theurillat@outlook.com>",
+  "license": "ISC"
+}

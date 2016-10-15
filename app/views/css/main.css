@@ -1,0 +1,30 @@
+body, ul, li, input, select {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    width: 90%;
+    margin: 3% auto;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+li input {
+    width: 88%;
+    height: 20px;
+    margin-right: 5px;
+}
+
+li select {
+    width: 10%;
+    height: 24px;
+}
+
+li button {
+    height: 24px;
+    width: 15%;
+}

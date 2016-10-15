@@ -1,0 +1,8 @@
+{
+  "name": "base-converter",
+  "dependencies": {},
+  "globalDependencies": {
+    "electron": "registry:env/electron#0.37.6+20160909065630",
+    "node": "registry:dt/node#6.0.0+20160928143418"
+  }
+}
